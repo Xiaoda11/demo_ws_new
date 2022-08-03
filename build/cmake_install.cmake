@@ -136,6 +136,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ljm/demo_ws/build/plumbing_param/cmake_install.cmake")
   include("/home/ljm/demo_ws/build/plumbing_pub_sub/cmake_install.cmake")
   include("/home/ljm/demo_ws/build/plumbing_srv/cmake_install.cmake")
+  include("/home/ljm/demo_ws/build/rename_node/cmake_install.cmake")
   include("/home/ljm/demo_ws/build/launch_learn/cmake_install.cmake")
 
 endif()

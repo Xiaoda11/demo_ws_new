@@ -27,6 +27,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "plumbing_srv/catkin_generated/plumbing_srv-msg-extras.cmake.develspace.in"
   "plumbing_srv/catkin_generated/plumbing_srv-msg-extras.cmake.installspace.in"
   "plumbing_srv/cmake/plumbing_srv-genmsg.cmake"
+  "rename_node/catkin_generated/ordered_paths.cmake"
+  "rename_node/catkin_generated/package.cmake"
   "/home/ljm/demo_ws/devel/share/plumbing_srv/cmake/plumbing_srv-msg-paths.cmake"
   "/home/ljm/demo_ws/src/CMakeLists.txt"
   "/home/ljm/demo_ws/src/hello/CMakeLists.txt"
@@ -42,6 +44,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/ljm/demo_ws/src/plumbing_pub_sub/package.xml"
   "/home/ljm/demo_ws/src/plumbing_srv/CMakeLists.txt"
   "/home/ljm/demo_ws/src/plumbing_srv/package.xml"
+  "/home/ljm/demo_ws/src/rename_node/CMakeLists.txt"
+  "/home/ljm/demo_ws/src/rename_node/package.xml"
   "/opt/ros/melodic/share/catkin/cmake/../package.xml"
   "/opt/ros/melodic/share/catkin/cmake/all.cmake"
   "/opt/ros/melodic/share/catkin/cmake/assert.cmake"
@@ -240,6 +244,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "plumbing_param/CMakeFiles/CMakeDirectoryInformation.cmake"
   "plumbing_pub_sub/CMakeFiles/CMakeDirectoryInformation.cmake"
   "plumbing_srv/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "rename_node/CMakeFiles/CMakeDirectoryInformation.cmake"
   "launch_learn/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

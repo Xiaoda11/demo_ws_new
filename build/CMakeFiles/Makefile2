@@ -1468,6 +1468,24 @@ clean: plumbing_srv/CMakeFiles/plumbing_srv_generate_messages_eus.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory rename_node
+
+# Convenience name for "all" pass in the directory.
+rename_node/all:
+
+.PHONY : rename_node/all
+
+# Convenience name for "clean" pass in the directory.
+rename_node/clean:
+
+.PHONY : rename_node/clean
+
+# Convenience name for "preinstall" pass in the directory.
+rename_node/preinstall:
+
+.PHONY : rename_node/preinstall
+
+#=============================================================================
 # Directory level rules for directory launch_learn
 
 # Convenience name for "all" pass in the directory.

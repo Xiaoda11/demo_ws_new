@@ -27,7 +27,7 @@ from std_msgs.msg import String
 
 if __name__ == "__main__":
     #2.初始化 ROS 节点:命名(唯一)
-    rospy.init_node("talker_p")
+    rospy.init_node("talker_p",anonymous=True)
     #3.实例化 发布者 对象
     pub = rospy.Publisher("chatter",String,queue_size=10)
     #4.组织被发布的数据，并编写逻辑发布数据
